@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="ja"> 
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/top.css">
+        <title>【BTS】個人的おすすめページ！TOP</title>
+    </head> 
+
+    <body>
+        <header>
+            <h1>【BTS】MY FAN PAGE</h1>
+        </header>
+            
+        <div>
+                <ul id="menu">
+                    <li><a href="./index.html">TOP</a></li>
+                    <li><a href="./index-blog.html">BLOG</a></li>
+                    <li><a href="./index-game.html">GAME</a></li>
+                </ul>
+                
+        </div>
+            
+        <div>
+            <img src="./files/profile.jpg" id="profile" alt="https://smash-media.jp/lp/bts" width="100%">
+                
+        </div>
+            
+        <div>
+            <h2>About "BTS" ???</h2>
+            <img src="./files/logo.jpg" id="logo" alt="https://steamcommunity.com/sharedfiles/filedetails/?l=japanese&id=1491733239" width="10%">
+            <p>【BTS】とは 正式名称である、“BangTanSonyeondan”からBTSの文字をとり<br>【BTS】と呼ばれており、韓国、日本などでは「バンタン」と呼ばれています。</p>
+            <p>“BangTanSonyeondan”日本語では[防弾少年団]と訳され、<br>「10代・20代に向けられる社会的偏見や抑圧（という名の弾丸）を防ぎ（止め）<br>
+                    自分たちの音楽と価値を弾き出して守り抜く」という意味を込めて2013年にデビューしました。</p>
+            <p id="kankaku">全世界で大人気の韓国のアイドルグループで、最新曲の「permission to Dance」<br>日本で大ブームになった「Dynamite」など
+                    多数の曲がビルボード・チャート1位を記録するなど<br>ビッグシンガーに匹敵する人気を持っています。</p>
+        </div>
+
+        <div class="situmon">
+
+            <h3>質問送信欄！</h3>
+            
+            <form action="#" method="POST">
+                <div>    
+                    <label for="name">ハンドルネーム:</label>
+                    <input type="text" name="handlename" id="handlename" placeholder="バンタン大好き" required>
+                    
+                    <label>
+                        <input type="radio" name="sex" value="male">
+                        男性
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="female">
+                        女性
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="other">
+                        その他
+                    </label>
+                </div>
+                    
+                <div>
+                    <label for="requests">質問事項:</label>
+                    <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+                </div>          
+            
+                <div>
+                    <label>
+                        メールアドレス:
+                        <input type="email">
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="送信する">
+                    <input type="reset" value="リセット">
+                </div>
+            
+            </form>
+        </div>
+    </body>
+</html>
