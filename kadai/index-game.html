@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="ja"> 
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/game.css">
+        <title>【BTS】個人的おすすめページ！GAME</title>
+    </head> 
+
+    <body>
+        <header>
+            <h1>【BTS】MY FAN PAGE</h1>
+        </header>
+            
+        <div>
+                <ul id="menu">
+                    <li><a href="./index.html">TOP</a></li>
+                    <li><a href="./index-blog.html">BLOG</a></li>
+                    <li><a href="./index-game.html">GAME</a></li>
+                </ul>
+                
+        </div>
+            
+        <div>
+            <img src="./files/profile.jpg" id="profile" alt="https://smash-media.jp/lp/bts" width="100%">
+                
+        </div>
+
+        <div>
+            <h2>下のボタンで今日の推しが占えます！</h2>
+        </div>
+        <div class="uranai-button">
+            <input id="uranai" type="button" value="今日の推しを占う！">
+            <script src="./js/game.js"></script>      
+        </div>
+
+
+
+      
+        <div class="situmon">
+
+            <h8>質問送信欄！</h8>
+            
+            <form action="#" method="POST">
+                <div>    
+                    <label for="name">ハンドルネーム:</label>
+                    <input type="text" name="handlename" id="handlename" placeholder="バンタン大好き" required>
+                    
+                    <label>
+                        <input type="radio" name="sex" value="male">
+                        男性
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="female">
+                        女性
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="other">
+                        その他
+                    </label>
+                </div>
+                    
+                <div>
+                    <label for="requests">質問事項:</label>
+                    <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+                </div>          
+            
+                <div>
+                    <label>
+                        メールアドレス:
+                        <input type="email">
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="送信する">
+                    <input type="reset" value="リセット">
+                </div>
+            
+            </form>
+        </div>
+    </body>
+</html>
